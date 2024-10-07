@@ -1,0 +1,70 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/angular-web-components/dist
+/angular-web-components/tmp
+/angular-web-components/out-tsc
+/angular-web-components/bazel-out
+
+# Node
+/angular-web-components/node_modules
+/angular-web-components/npm-debug.log
+/angular-web-components/yarn-error.log
+
+# IDEs and editors
+/angular-web-components/.idea/
+/angular-web-components/.project
+/angular-web-components/.classpath
+/angular-web-components/.c9/
+/angular-web-components/*.launch
+/angular-web-components/.settings/
+/angular-web-components/*.sublime-workspace
+
+# Visual Studio Code
+/angular-web-components/.vscode/*
+/angular-web-components/!.vscode/settings.json
+/angular-web-components/!.vscode/tasks.json
+/angular-web-components/!.vscode/launch.json
+/angular-web-components/!.vscode/extensions.json
+/angular-web-components/.history/*
+
+# Miscellaneous
+/angular-web-components/.angular/cache
+/angular-web-components.sass-cache/
+/angular-web-components/connect.lock
+/angular-web-components/coverage
+/angular-web-components/libpeerconnection.log
+/angular-web-componentstestem.log
+/angular-web-components/typings
+
+# System files
+.DS_Store
+/angular-web-components/.DS_Store
+/angular-web-components/Thumbs.db
+
+
+# Logs
+/my-component-library/logs
+*.log
+/my-component-library/npm-debug.log*
+/my-component-library/yarn-debug.log*
+/my-component-library/yarn-error.log*
+/my-component-library/pnpm-debug.log*
+/my-component-library/lerna-debug.log*
+
+/my-component-library/node_modules
+/my-component-library/dist
+/my-component-library/dist-ssr
+/my-component-library/*.local
+
+# Editor directories and files
+/my-component-library/.vscode/*
+/my-component-library/!.vscode/extensions.json
+/my-component-library/.idea
+/my-component-library/.DS_Store
+/my-component-library/*.suo
+/my-component-library/*.ntvs*
+/my-component-library/*.njsproj
+/my-component-library/*.sln
+/my-component-library/*.sw?
+
