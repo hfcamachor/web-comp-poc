@@ -2,12 +2,13 @@ import './MyComponent.css';
 
 type MyComponentProps = {
   label: string;
+  theme?: 'light' | 'dark'; 
 };
 
-const MyComponent = ({ label }: MyComponentProps) => {
+const MyComponent = ({ label, theme = 'light' }: MyComponentProps) => {
   return (
-    <div>
-      This is a button:
+    <div data-theme={theme}>
+      This is web component a button:
       <button className='my-component'>{label}</button>
     </div>
   );

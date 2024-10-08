@@ -31,7 +31,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/assets/index-pa16pgz5.css"
+              "src/assets/web-components.css"
             ],
             "scripts": []
           },

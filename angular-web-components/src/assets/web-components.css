@@ -1,0 +1,1 @@
+:root{--button-bg-color: rgb(246, 84, 84);--button-text-color: black}[data-theme=dark]{--button-bg-color: rgb(30, 30, 30);--button-text-color: white}.my-component{padding:15px;border-radius:10px;background-color:var(--button-bg-color);color:var(--button-text-color);border:none;cursor:pointer}

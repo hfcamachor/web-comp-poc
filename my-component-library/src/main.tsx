@@ -17,7 +17,7 @@ import reactToWebComponent from 'react-to-webcomponent';
 
 // Convert the React component to a Web Component
 const WebButtonComponent = reactToWebComponent(MyComponent, React, ReactDOM, {
-  props: ['label'], // Ensure 'label' is treated as a prop
+  props: ['label', 'theme'], // Ensure 'label' is treated as a prop
 });
 
 // Define the custom element (web component)
